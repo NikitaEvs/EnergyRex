@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120.628dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        
+        <TextView
+            android:id="@+id/availablePower"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/availablePower"
+            android:textColor="#FF434B4E"
+            android:textSize="18.62sp"
+            />
+
+        <TextView
+            android:id="@+id/availableCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="37.24dp"
+            android:textColor="#FFF90A0A"
+            android:text="@string/availableCount"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="450.19dp"
+            android:src="@drawable/housegraf"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        
+        <TextView
+            android:id="@+id/emergency"
+            android:layout_width="252dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Emergency"
+            android:textColor="#FFF90A0A"
+            android:textSize="18.62sp"/>
+
+        <Button
+            android:id="@+id/emergencyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_sagitta_red"
+            android:padding="25dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

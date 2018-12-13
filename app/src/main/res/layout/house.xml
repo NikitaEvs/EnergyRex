@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49.4dp"
+        android:layout_marginTop="14.668dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="14.6522dp"
+            android:paddingTop="9.348dp"
+            android:src="@drawable/ic_attantion" />
+
+        <TextView
+            android:id="@+id/danger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="23.508dp"
+            android:lineSpacingMultiplier="1.17"
+            android:text="@string/danger"
+            android:textColor="#FF434B4E"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95.836dp"
+        android:layout_marginTop="16.036dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="295.992dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingMultiplier="1.17"
+                android:text="@string/tips"
+                android:textColor="#FF21ABD5"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingMultiplier="1.20"
+                android:text="@string/tip"
+                android:textColor="#FF9B9B9B"
+                android:textSize="13.3sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tipBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_sagitta"
+            android:paddingEnd="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="317.3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_table" />
+        
+        <TextView
+            android:id="@+id/power"
+            android:layout_width="match_parent"
+            android:layout_height="61.3dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/power"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="37.3sp"
+            android:textColor="#FFF90A0A" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

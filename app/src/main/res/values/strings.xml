@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EnergyRex</string>
+    <string name="my_house">мой дом</string>
+    <string name="my_poselok">мой остров</string>
+    <string name="danger">Вы превысили допустимую норму!</string>
+    <string name="tips">Советы</string>
+    <string name="tip">Посмотрите, как можно оптимизировать ваше энергопотребление</string>
+    <string name="power">11200 Вт</string>
+    <string name="availablePower">Доступная мощность</string>
+    <string name="availableCount">6000 Вт</string>
+    <string name="newCount">8200 Вт</string>
+    <string name="OutdoorLED">Уличный фонарь + электрозарядка</string>
+    <string name="ActivePower">Потребляемая мощность 2200 вт</string>
+    <string name="Emergency">Экстренное управление инфраструктурой острова</string>
+    <string name="tip1">Уходя, выключайте свет </string>
+    <string name="tip2">Вы часто не выключаете свет перед уходом,
+из - за чего ваш расход электроэнергии резко увеличивается.</string>
+    <string name="tip3">Замените лампы на энергосберегающие</string>
+    <string name="tip4">Ваши лампы накаливания потребляют слишком много электроэнергии. Заменив их, вы сможете значительно снизить ежемесячную стоимость электричества.</string>
+    <string name="tip5">Используйте вашу стиральную машину пока вас нет дома</string>
+    <string name="tip6">Запуская вашу стиральную машину в часы с наименьшим потреблением электроэнергии вы сможете снизить пиковую нагрузку.</string>
+</resources>
